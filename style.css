@@ -1,0 +1,251 @@
+@font-face {
+	font-family: "Nunito";
+	src: url("fonts/Nunito-Regular.woff2"),
+	url("fonts/Nunito-Regular.woff");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url("fonts/Nunito-Bold.woff2"),
+	url("fonts/Nunito-Bold.woff");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url("fonts/Nunito-SemiBold.woff2"),
+	url("fonts/Nunito-SemiBold.woff");
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url("fonts/Nunito-ExtraBold.woff2"),
+	url("fonts/Nunito-ExtraBold.woff");
+	font-weight: 800;
+	font-display: swap;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #fff;
+	font-family: "Nunito", sans-serif;
+	min-width: 320px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 20px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header__container {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 17px 0;
+    z-index: 2;
+}
+
+.logo {
+    padding-left: 80px;
+    padding-top: 2px;
+}
+
+.header__menu-list {
+    padding-left: 104px;
+    color: #222;
+    opacity: 75%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header__menu-item {
+    display: inline-block;
+    padding-right: 43px;
+    padding-top: 2px;
+}
+
+.header__btn {
+    width: 137px;
+    height: 40px;
+    margin-right: 28px;
+    margin-top: 3px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    background-color: transparent;
+    color: #3E3F43;
+    border: 1px solid #3E3F43;
+    border-radius: 8px;
+}
+
+/*First Slide*/
+.first__container {
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.first__title {
+    position: relative;
+    z-index: 1;
+    padding-top: 140px;
+    padding-right: 450px;
+    padding-left: 81px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.bold-weight {
+    font-weight: 700;
+}
+
+.first__description {
+    display: block;
+    padding-top: 16px;
+    padding-right: 50px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.table {
+    position: absolute;
+    top: -77px;
+    right: 0;
+}
+
+.btn-fill {
+    background-color: #daa520;
+    color: #fff;
+}
+
+.first__btn {
+    width: 175px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-left: 82px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*About*/
+.about__container {
+    position: relative;
+    padding-top: 26px;
+}
+
+.small-flower {
+    padding-left: 80px;
+}
+
+.about__small-flower {
+    padding-bottom: 8px;
+}
+
+.about__title-description {
+    position: relative;
+    left: 5px;
+    bottom: 12px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.title-description {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.straight-line {
+    display: inline-block;
+    width: 316px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 23px;
+    margin-left: 16px;
+}
+
+.title {
+    display: inline;
+    position: relative;
+    font-size: 72px;
+    font-weight: 800;
+    color: #222;
+    opacity: 10%;
+}
+
+.about__description {
+    position: relative;
+    top: 145px;
+    padding-left: 585px;
+    padding-right: 100px;
+    font-size: 36px;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.font-size--smaller {
+    display: block;
+    position: relative;
+    bottom: -16px;
+    font-size: 24px;
+}
+
+.salad {
+    position: absolute;
+    top: 165px;
+    left: 0;
+}
+
+.about__second-description {
+    position: relative;
+    top: 435px;
+    left: 82px;
+    padding-right: 400px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.spoons {
+    position: absolute;
+    right: 0;
+    top: 593px;
+}
+
+/*How it works*/
+.how-it-works__container {
+    position: relative;
+}
